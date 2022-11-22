@@ -18,9 +18,14 @@ export function RegistrationView(props) {
     };
 
     return (
-        <Form>
+        <Container>
+            <Row>
+                <Col>
+                <CardGroup>
+                    <Card>
+                        <Card.Header>Welcome to Registration</Card.Header>
+                        <Form>
             <Form.Group>
-            <h2>Welcome to the User Registration</h2>
             <Form.Label>Username:</Form.Label>
                 <Form.Control 
                 type="text" 
@@ -70,9 +75,14 @@ export function RegistrationView(props) {
             <Button 
             className="back-button mt-2"
             variant="secondary"
-            type="submit" 
+            type="button" 
             onClick={() => {onBackClick(null); }}>Return to Login Page</Button>
        </Form>
+            </Card>
+                </CardGroup>
+                </Col>
+            </Row>
+       </Container>
     );
 }
 
