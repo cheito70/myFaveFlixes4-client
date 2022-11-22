@@ -70,8 +70,8 @@ export function RegistrationView(props) {
             <Button 
             className="back-button mt-2"
             variant="secondary"
-            type="button" 
-            onClick={() => {props.onBackClick(null);}}>Return to Login Page</Button>
+            type="submit" 
+            onClick={() => {onBackClick(null); }}>Return to Login Page</Button>
        </Form>
     );
 }

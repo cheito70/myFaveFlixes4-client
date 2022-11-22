@@ -78,7 +78,6 @@ toRegister(registered) {
             <Row className="main-view justify-content-md-center">
             {selectedMovie  
                 ? (
-               //<Row className="justify-content-md-center">
                   <Col md={8}> 
                     <MovieView
                    movie={selectedMovie}
@@ -86,11 +85,8 @@ toRegister(registered) {
                      this.setSelectedMovie(newSelectedMovie);
                    }}/>
                    </Col>
-               // </Row>
-                )
-                : (
-                    //<Row className="justify-content-md-center">
-                    {movies.map(movie => (
+               )
+                : movies.map(movie => (
                         <Col md={3}>
                         <MovieCard
                      key={movie._id}
@@ -98,12 +94,10 @@ toRegister(registered) {
                      onMovieClick={(newSelectedMovie) => {
                        this.setSelectedMovie(newSelectedMovie); }}/>
                         </Col>
-                     ))}
-                   // </Row>
-                    )
-                 }
-             </Row>
-        );
+                     ))
+                    }
+                 </Row>
+              );
     }
 
 }
