@@ -1,3 +1,5 @@
+#My Fave Flixes Client
+
 My Fave Flixes Client
 This installation is the client side of the My Fave Flixes Web App.
 
