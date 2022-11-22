@@ -1,6 +1,5 @@
 import React, { useState }  from 'react';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
+import {Form, Col, Row, Container, Card, Button } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
 export function LoginView(props) {
@@ -22,7 +21,8 @@ export function LoginView(props) {
 
 
     return (
-        <Form>
+
+        <Form className="login-border">
             <Form.Group controlId="formUsername">
                 <Form.Label>Username:</Form.Label>
                 <Form.Control type="text" onChange={e => setUsername(e.target.value)} />
@@ -44,6 +44,7 @@ export function LoginView(props) {
             type="submit"
             onClick={handleRegisterClick}>Register</Button>
         </Form>
+
     );
 }
 
