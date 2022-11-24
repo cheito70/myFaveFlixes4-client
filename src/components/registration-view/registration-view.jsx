@@ -20,8 +20,8 @@ export function RegistrationView(props) {
     return (
     <Container>
       <Row>
-        <Col>
-          <Col></Col>
+       <Col></Col>
+          <Col>
             <CardGroup>
               <Card>
                 <Card.Header>Please Register</Card.Header>
@@ -81,8 +81,8 @@ export function RegistrationView(props) {
             </Form>
           </Card>
         </CardGroup>
-      <Col></Col>
-    </Col>
+      </Col>
+    <Col></Col>
   </Row>
 </Container>
     );
