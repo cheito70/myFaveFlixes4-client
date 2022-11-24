@@ -1,0 +1,20 @@
+{
+  "name": "myfaveflixes4-client",
+  "version": "1.0.0",
+  "description": "Favorite movie app.",
+  "default": "src/index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheito70/myFaveFlixes4-client.git"
+  },
+  "author": "Jose D Martinez Breto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheito70/myFaveFlixes4-client/issues"
+  },
+  "homepage": "https://github.com/cheito70/myFaveFlixes4-client#readme"
+}
