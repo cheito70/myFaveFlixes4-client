@@ -18,12 +18,13 @@ export function RegistrationView(props) {
     };
 
     return (
-        <Container>
-            <Row>
-                <Col>
-                <CardGroup>
-                    <Card>
-                        <Card.Header>Please Register</Card.Header>
+    <Container>
+      <Row>
+        <Col>
+          <Col></Col>
+            <CardGroup>
+              <Card>
+                <Card.Header>Please Register</Card.Header>
                         <Form>
             <Form.Group>
             <Form.Label>Username:</Form.Label>
@@ -77,12 +78,13 @@ export function RegistrationView(props) {
             variant="secondary"
             type="button" 
             onClick={() => {onBackClick(null); }}>Return to Login Page</Button>
-       </Form>
-            </Card>
-                </CardGroup>
-                </Col>
-            </Row>
-       </Container>
+            </Form>
+          </Card>
+        </CardGroup>
+      <Col></Col>
+    </Col>
+  </Row>
+</Container>
     );
 }
 
