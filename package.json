@@ -2,7 +2,7 @@
   "name": "myfaveflixes4-client",
   "version": "1.0.0",
   "description": "App for movie lovers.",
-  "main": "src/index.html",
+  "default": "src/index.html",
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.5",
     "acorn": "^8.8.1",
