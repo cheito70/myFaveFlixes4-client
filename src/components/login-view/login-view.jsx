@@ -23,40 +23,41 @@ export function LoginView(props) {
     return (
 <Container>
     <Row>
-    <Col></Col>
-        <Col>
-            <CardGroup>
-                <Card>
-                <Card.Body>
-        <Form className="login-border">
-            <Form.Group controlId="formUsername">
-                <Form.Label>Username:</Form.Label>
-                <Form.Control type="text" onChange={e => setUsername(e.target.value)} />
-            </Form.Group>
-
-            <Form.Group controlId="formPassword">
-                <Form.Label>Password:</Form.Label>
-                <Form.Control type="password" onChange={e => setPassword(e.target.value)} />
-            </Form.Group>
-            <Button 
-            className="login-button mt-2 mr-2"
-            variant="primary" 
-            type="submit" 
-            onClick={handleSubmit}>Submit</Button>
-
-            <Button 
-            className="register-button mt-2" 
-            variant="secondary" 
-            type="submit"
-            onClick={handleRegisterClick}>Register</Button>
-        </Form>
-        </Card.Body>
-        </Card>
-        </CardGroup>
-            </Col>
         <Col></Col>
-    </Row>
-</Container>
+            <Col>
+                <CardGroup>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>Login Here</Card.Title>
+                            <Form className="login-border">
+                                <Form.Group controlId="formUsername">
+                                    <Form.Label>Username:</Form.Label>
+                                    <Form.Control type="text" onChange={e => setUsername(e.target.value)} />
+                                </Form.Group>
+
+                                <Form.Group controlId="formPassword">
+                                    <Form.Label>Password:</Form.Label>
+                                    <Form.Control type="password" onChange={e => setPassword(e.target.value)} />
+                                </Form.Group>
+                                <Button 
+                                className="login-button mt-2 mr-2"
+                                variant="primary" 
+                                type="submit" 
+                                onClick={handleSubmit}>Submit</Button>
+
+                                <Button 
+                                className="register-button mt-2" 
+                                variant="secondary" 
+                                type="submit"
+                                onClick={handleRegisterClick}>Register</Button>
+                            </Form>
+            </Card.Body>
+            </Card>
+            </CardGroup>
+                </Col>
+            <Col></Col>
+        </Row>
+    </Container>
     );
 }
 
