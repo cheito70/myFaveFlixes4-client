@@ -26,6 +26,8 @@ export function LoginView(props) {
     <Col></Col>
         <Col>
             <CardGroup>
+                <Card>
+                <Card.Body>
         <Form className="login-border">
             <Form.Group controlId="formUsername">
                 <Form.Label>Username:</Form.Label>
@@ -48,6 +50,8 @@ export function LoginView(props) {
             type="submit"
             onClick={handleRegisterClick}>Register</Button>
         </Form>
+        </Card.Body>
+        </Card>
         </CardGroup>
             </Col>
         <Col></Col>
