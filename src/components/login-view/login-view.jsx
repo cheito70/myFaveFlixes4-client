@@ -23,7 +23,6 @@ export function LoginView(props) {
     return (
 <Container>
     <Row>
-        <Col></Col>
         <Col>
         <Form className="login-border">
             <Form.Group controlId="formUsername">
@@ -48,7 +47,6 @@ export function LoginView(props) {
             onClick={handleRegisterClick}>Register</Button>
         </Form>
             </Col>
-        <Col></Col>
     </Row>
 </Container>
     );
