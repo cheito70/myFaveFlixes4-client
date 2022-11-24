@@ -23,7 +23,7 @@ export function RegistrationView(props) {
                 <Col>
                 <CardGroup>
                     <Card>
-                        <Card.Header>Welcome to Registration</Card.Header>
+                        <Card.Header>Please Register</Card.Header>
                         <Form>
             <Form.Group>
             <Form.Label>Username:</Form.Label>

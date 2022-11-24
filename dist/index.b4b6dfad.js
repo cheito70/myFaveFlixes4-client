@@ -31432,7 +31432,7 @@ function RegistrationView(props) {
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Header, {
-                                children: "Welcome to Registration"
+                                children: "Please Register"
                             }, void 0, false, {
                                 fileName: "src/components/registration-view/registration-view.jsx",
                                 lineNumber: 26,
